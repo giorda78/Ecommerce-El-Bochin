@@ -1,0 +1,12 @@
+[{"id":1,"nombre":"FERNET BRANCA 750ML","precio":750,"categoria":"BEBIDAS","cantidad":1,"imagen":"img/fernet.jpg"},
+{"id":2,"nombre":"VODKA SMIRNOFF 750ML","precio":500,"categoria":"BEBIDAS","cantidad":1,"imagen":"img/vodka.jpg"},
+{"id":3,"nombre":"GIN BEFFEATER","precio":800,"categoria":"BEBIDAS","cantidad":1,"imagen":"img/gin.jpg"},
+{"id":4,"nombre":"RON BACARDI","precio":950,"categoria":"BEBIDAS","cantidad":1,"imagen":"img/ron.jpg"},
+{"id":5,"nombre":"CAMPARI","precio":850,"categoria":"BEBIDAS","cantidad":1,"imagen":"img/campari.jpg"},
+{"id":6,"nombre":"LATA ANDES RUBIA","precio":110,"categoria":"CERVEZAS","cantidad":1,"imagen":"img/latarubia.jpg"},
+{"id":7,"nombre":"LATA ANDES ROJA","precio":110,"categoria":"CERVEZAS","cantidad":1,"imagen":"img/lataroja.jpg"},
+{"id":8,"nombre":"LATA ANDES IPA","precio":110,"categoria":"CERVEZAS","cantidad":1,"imagen":"img/lataipa.jpg"},
+{"id":9,"nombre":"COCA COLA 1.5L","precio":100,"categoria":"PARA ACOMPAÑAR","cantidad":1,"imagen":"img/coca.jpg"},
+{"id":10,"nombre":"SPRITE 1.5L","precio":90,"categoria":"PARA ACOMPAÑAR","cantidad":1,"imagen":"img/sprite.jpg"},
+{"id":11,"nombre":"JUGO CEPITA 1.5L","precio":85,"categoria":"PARA ACOMPAÑAR","cantidad":1,"imagen":"img/cepita.jpg"},
+{"id":12,"nombre":"SPEED","precio":45,"categoria":"PARA ACOMPAÑAR","cantidad":1,"imagen":"img/speed.jpg"}]

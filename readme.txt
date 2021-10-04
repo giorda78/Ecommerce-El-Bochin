@@ -1,0 +1,1 @@
+Esta carpeta contiene el proyecto final de javascript en CoderHouse, de Lucas Giorda.

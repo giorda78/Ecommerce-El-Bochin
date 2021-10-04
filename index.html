@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>distribuidora el bochin</title>
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!--css-->
+    <link rel="stylesheet" href="styles/styles.css">
+    <!--botones de redes-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+   <div class="container-fluid">   
+        <nav class="nav-main">
+            <!-- Brand -->
+            <a href="index.html"><img src="img/cocktail.png" alt="" class="nav-brand logo"></a>
+            <!-- Left Nav -->
+            <ul class="nav-menu">
+                <li>
+                    <a href="index.html" class="text-white">Productos</a>
+                </li>
+                <li>
+                    <a href="carrito.html" class="text-white">Carrito</a>
+                </li>
+                <li>
+                    <a href="#footer" class="text-white">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+      
+        <!--BOTON CARRITO-->
+        
+
+
+        <div class="titulos text-center quieto">
+            <h1>Bievenidos a distribuidora "El Bochin"</h1>
+            <h2>Envios a Rosario y Funes</h2>
+        </div>
+
+        <div class="text-center">
+            <div class="">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">  
+                        <label class="input-group-text" for="filtroCategorias">Categorias</label>
+                    </div>
+                    <select class="custom-select" id="filtroCategorias"></select>
+                </div>
+            </div>
+
+          
+        </div>
+          
+        <div id="indicadorCarga" class="d-flex justify-content-center">
+            <div class="spinner-border" role="status">
+              <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+
+
+        <div id="notificaciones" class="text-center">
+         <!--Notificacion de compra-->
+        </div>
+
+        <hr>
+        
+        <div class="titulos text-center p-2">
+            <h2>Nuestro Productos</h2>
+        </div>
+        
+        <div id="productosContenedor" class="card-columns row justify-content-center" style="display: none;">
+            <!--ACA SE GENERAN LOS PRODUCTOS-->
+        </div>
+        
+        <div class="titulos text-center p-5">
+            <h2><a href="carrito.html" class="text-white">Ver carrito</a></h2>
+        </div>
+
+        <footer id="footer">    
+            <section class="container-fluid fondoFooter">
+                <div class="row">
+                    <div class="col-lg-4 text-center text-lg-center mt-lg-0">
+                        <a href="index.html"><img class="img-fluid mb-3 mt-5 imagenLogoFooter logo" src="img/cocktail.png" alt=""></a>
+                    </div>
+                    
+                    <div class="col-lg-4 text-center text-lg-center mt-lg-0">
+                        <h4 class="textoFooter fw-bold mb-3 mt-5">¡Seguinos en las redes!</h4>
+                        <div>
+                            <a class="sm-button facebook" href=""><i class="fa fa-facebook"></i></a>
+                            <a class="sm-button instagram" href=""><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 text-center text-lg-center mt-lg-0">
+                            <h4 class="text-white separarDos">© 2021 - Todos los derechos reservados</h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>  
+
+    </div>
+
+
+
+
+
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+    <script src="js/globales.js"></script>
+    <script src="js/funciones.js"></script>
+    <script src="js/producto.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
